@@ -1,0 +1,27 @@
+@charset "UTF-8";
+table td,th{
+	border:2px solid #00e5e9;
+}
+table {
+	border-collapse:collapse;
+}
+th {
+	color:#EFC050;
+	background-color:#45B8AC;
+}
+tr{
+	color:grey;
+}
+tr:nth-child(odd){
+	background-color:#7FCDCD;
+}
+tr:nth-child(even){
+	background-color:#55B4B0;
+}
+td:hover,th:hover {
+	color:#00e5e9;
+	transition:0.5s;
+}
+button {
+	align:center;
+}
